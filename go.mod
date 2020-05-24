@@ -3,10 +3,10 @@ module github.com/gruntwork-io/terratest
 go 1.13
 
 require (
-	cloud.google.com/go v0.51.0
-	cloud.google.com/go/storage v1.0.0
+	cloud.google.com/go v0.56.0
+	cloud.google.com/go/storage v1.6.0
 	github.com/Azure/azure-sdk-for-go v38.1.0+incompatible
-	github.com/Azure/go-autorest/autorest v0.9.3
+	github.com/Azure/go-autorest/autorest v0.10.2
 	github.com/Azure/go-autorest/autorest/azure/auth v0.4.2
 	github.com/Azure/go-autorest/autorest/validation v0.2.0 // indirect
 	github.com/Masterminds/semver v1.5.0 // indirect
@@ -20,7 +20,6 @@ require (
 	github.com/globalsign/mgo v0.0.0-20181015135952-eeefdecb41b8 // indirect
 	github.com/go-errors/errors v1.0.2-0.20180813162953-d98b870cc4e0 // indirect
 	github.com/go-sql-driver/mysql v1.4.1
-	github.com/google/go-cmp v0.4.0 // indirect
 	github.com/google/go-containerregistry v0.0.0-20200110202235-f4fb41bf00a3
 	github.com/google/uuid v1.1.1
 	github.com/googleapis/gnostic v0.3.1 // indirect
@@ -37,14 +36,12 @@ require (
 	github.com/shopspring/decimal v0.0.0-20200105231215-408a2507e114 // indirect
 	github.com/sirupsen/logrus v1.4.2
 	github.com/stretchr/testify v1.4.0
-	github.com/urfave/cli v1.22.1
+	github.com/urfave/cli v1.22.4
 	golang.org/x/crypto v0.0.0-20200109152110-61a87790db17
-	golang.org/x/net v0.0.0-20191209160850-c0dbc17a3553
+	golang.org/x/net v0.0.0-20200324143707-d3edc9973b7e
 	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
-	golang.org/x/sys v0.0.0-20200107162124-548cf772de50 // indirect
-	golang.org/x/tools v0.0.0-20200113040837-eac381796e91 // indirect
-	google.golang.org/api v0.15.0
-	google.golang.org/genproto v0.0.0-20200108215221-bd8f9a0ef82f
+	google.golang.org/api v0.25.0
+	google.golang.org/genproto v0.0.0-20200331122359-1ee6d9798940
 	k8s.io/api v0.17.0
 	k8s.io/apimachinery v0.17.0
 	k8s.io/client-go v0.17.0
