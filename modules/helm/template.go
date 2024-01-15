@@ -3,9 +3,9 @@ package helm
 import (
 	"encoding/json"
 	"path/filepath"
+	"sigs.k8s.io/yaml"
 	"strings"
 
-	"github.com/ghodss/yaml"
 	"github.com/gruntwork-io/go-commons/errors"
 	"github.com/stretchr/testify/require"
 
